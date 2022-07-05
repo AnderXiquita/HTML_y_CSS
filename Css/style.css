@@ -1,0 +1,54 @@
+/* Por elemento */
+
+p {
+    color: teal;
+    font-size: 40px;
+}
+
+/* Por clases */
+
+.parrafo{
+    color: darkslategray;
+    font-size: 60px;
+}
+
+/* Por ID */
+
+#parrafo2{
+    color: lightseagreen;
+    font-size: 100px;
+}
+
+/*-------------------------------------------------*/
+/* Pseudo clases y Pseudo elementos*/
+/*-------------------------------------------------*/
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: teal;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color:black;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+.main-nav__item a::after {
+    content: " | ";
+}
