@@ -1,0 +1,21 @@
+div {
+    background-color:antiquewhite;
+    border-radius: 50px;
+    margin: 50px;
+    width: 800px;
+    height: 500px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.Adjacent_sibling h2 + p {
+    color:blue;
+}
+
+.General_sibling h2 ~ p {
+    color:darkcyan
+}
+
+.chilld > p {
+    color: chocolate;
+}
